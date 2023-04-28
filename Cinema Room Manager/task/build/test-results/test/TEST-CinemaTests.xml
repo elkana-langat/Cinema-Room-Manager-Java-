@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CinemaTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-28T12:42:09" hostname="LANGAT" time="1.704">
+  <properties/>
+  <testcase name="start" classname="CinemaTests" time="1.704"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Enter the number of rows:
+> 7
+Enter the number of seats in each row:
+> 8
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 0
+?[1;31m
+Start test 2?[0m
+Enter the number of rows:
+> 7
+Enter the number of seats in each row:
+> 8
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 1
+Cinema:
+  1 2 3 4 5 6 7 8 
+1 S S S S S S S S 
+2 S S S S S S S S 
+3 S S S S S S S S 
+4 S S S S S S S S 
+5 S S S S S S S S 
+6 S S S S S S S S 
+7 S S S S S S S S 
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+Enter the number of rows:
+> 2
+Enter the number of seats in each row:
+> 2
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 1
+Cinema:
+  1 2 
+1 S S 
+2 S S 
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+Enter the number of rows:
+> 9
+Enter the number of seats in each row:
+> 9
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 1
+Cinema:
+  1 2 3 4 5 6 7 8 9 
+1 S S S S S S S S S 
+2 S S S S S S S S S 
+3 S S S S S S S S S 
+4 S S S S S S S S S 
+5 S S S S S S S S S 
+6 S S S S S S S S S 
+7 S S S S S S S S S 
+8 S S S S S S S S S 
+9 S S S S S S S S S 
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 0
+?[1;31m
+Start test 3?[0m
+Enter the number of rows:
+> 7
+Enter the number of seats in each row:
+> 8
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 2
+Enter a seat number in that row:
+> 4
+Ticket price: $10
+Number of purchased tickets: 1
+Percentage: 1.79%
+Current income: $10
+Total income: $560
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 1
+Cinema:
+  1 2 3 4 5 6 7 8 
+1 S S S S S S S S 
+2 S S S B S S S S 
+3 S S S S S S S S 
+4 S S S S S S S S 
+5 S S S S S S S S 
+6 S S S S S S S S 
+7 S S S S S S S S 
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 3
+Enter a seat number in that row:
+> 5
+Ticket price: $10
+Number of purchased tickets: 2
+Percentage: 3.57%
+Current income: $20
+Total income: $560
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 1
+Cinema:
+  1 2 3 4 5 6 7 8 
+1 S S S S S S S S 
+2 S S S B S S S S 
+3 S S S S B S S S 
+4 S S S S S S S S 
+5 S S S S S S S S 
+6 S S S S S S S S 
+7 S S S S S S S S 
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+?[1;31m
+Start test 4?[0m
+Enter the number of rows:
+> 9
+Enter the number of seats in each row:
+> 9
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 1
+Enter a seat number in that row:
+> 1
+Ticket price: $10
+Number of purchased tickets: 1
+Percentage: 1.23%
+Current income: $10
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 4
+Enter a seat number in that row:
+> 5
+Ticket price: $10
+Number of purchased tickets: 2
+Percentage: 2.47%
+Current income: $20
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 1
+Cinema:
+  1 2 3 4 5 6 7 8 9 
+1 B S S S S S S S S 
+2 S S S S S S S S S 
+3 S S S S S S S S S 
+4 S S S S B S S S S 
+5 S S S S S S S S S 
+6 S S S S S S S S S 
+7 S S S S S S S S S 
+8 S S S S S S S S S 
+9 S S S S S S S S S 
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 5
+Enter a seat number in that row:
+> 5
+Ticket price: $8
+Number of purchased tickets: 3
+Percentage: 3.70%
+Current income: $28
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 1
+Cinema:
+  1 2 3 4 5 6 7 8 9 
+1 B S S S S S S S S 
+2 S S S S S S S S S 
+3 S S S S S S S S S 
+4 S S S S B S S S S 
+5 S S S S B S S S S 
+6 S S S S S S S S S 
+7 S S S S S S S S S 
+8 S S S S S S S S S 
+9 S S S S S S S S S 
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 6
+Enter a seat number in that row:
+> 6
+Ticket price: $8
+Number of purchased tickets: 4
+Percentage: 4.94%
+Current income: $36
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 1
+Cinema:
+  1 2 3 4 5 6 7 8 9 
+1 B S S S S S S S S 
+2 S S S S S S S S S 
+3 S S S S S S S S S 
+4 S S S S B S S S S 
+5 S S S S B S S S S 
+6 S S S S S B S S S 
+7 S S S S S S S S S 
+8 S S S S S S S S S 
+9 S S S S S S S S S 
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+?[1;31m
+Start test 5?[0m
+Enter the number of rows:
+> 9
+Enter the number of seats in each row:
+> 9
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 1
+Enter a seat number in that row:
+> 1
+Ticket price: $10
+Number of purchased tickets: 1
+Percentage: 1.23%
+Current income: $10
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 1
+Enter a seat number in that row:
+> 1
+That ticket has already been purchased!
+Enter a row number:
+> 9
+Enter a seat number in that row:
+> 5
+Ticket price: $8
+Number of purchased tickets: 2
+Percentage: 2.47%
+Current income: $18
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 9
+Enter a seat number in that row:
+> 5
+That ticket has already been purchased!
+Enter a row number:
+> 2
+Enter a seat number in that row:
+> 3
+Ticket price: $10
+Number of purchased tickets: 3
+Percentage: 3.70%
+Current income: $28
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 10
+Enter a seat number in that row:
+> 1
+Wrong input!
+Enter a row number:
+> 5
+Enter a seat number in that row:
+> 10
+Wrong input!
+Enter a row number:
+> -5
+Enter a seat number in that row:
+> 12
+Wrong input!
+Enter a row number:
+> 5
+Enter a seat number in that row:
+> 5
+Ticket price: $8
+Number of purchased tickets: 4
+Percentage: 4.94%
+Current income: $36
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+?[1;31m
+Start test 6?[0m
+Enter the number of rows:
+> 9
+Enter the number of seats in each row:
+> 9
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 3
+Number of purchased tickets: 0
+Percentage: 0.00%
+Current income: $0
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 1
+Enter a seat number in that row:
+> 7
+Ticket price: $10
+Number of purchased tickets: 1
+Percentage: 1.23%
+Current income: $10
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 1
+Enter a seat number in that row:
+> 8
+Ticket price: $10
+Number of purchased tickets: 2
+Percentage: 2.47%
+Current income: $20
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 1
+Enter a seat number in that row:
+> 9
+Ticket price: $10
+Number of purchased tickets: 3
+Percentage: 3.70%
+Current income: $30
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 3
+Number of purchased tickets: 3
+Percentage: 3.70%
+Current income: $30
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 9
+Enter a seat number in that row:
+> 1
+Ticket price: $8
+Number of purchased tickets: 4
+Percentage: 4.94%
+Current income: $38
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 9
+Enter a seat number in that row:
+> 2
+Ticket price: $8
+Number of purchased tickets: 5
+Percentage: 6.17%
+Current income: $46
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 9
+Enter a seat number in that row:
+> 3
+Ticket price: $8
+Number of purchased tickets: 6
+Percentage: 7.41%
+Current income: $54
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 3
+Number of purchased tickets: 6
+Percentage: 7.41%
+Current income: $54
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 2
+Enter a seat number in that row:
+> 1
+Ticket price: $10
+Number of purchased tickets: 7
+Percentage: 8.64%
+Current income: $64
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 2
+Enter a seat number in that row:
+> 2
+Ticket price: $10
+Number of purchased tickets: 8
+Percentage: 9.88%
+Current income: $74
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 2
+Enter a seat number in that row:
+> 3
+Ticket price: $10
+Number of purchased tickets: 9
+Percentage: 11.11%
+Current income: $84
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 2
+Enter a seat number in that row:
+> 4
+Ticket price: $10
+Number of purchased tickets: 10
+Percentage: 12.35%
+Current income: $94
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 2
+Enter a seat number in that row:
+> 5
+Ticket price: $10
+Number of purchased tickets: 11
+Percentage: 13.58%
+Current income: $104
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 2
+Enter a seat number in that row:
+> 6
+Ticket price: $10
+Number of purchased tickets: 12
+Percentage: 14.81%
+Current income: $114
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 2
+Enter a seat number in that row:
+> 7
+Ticket price: $10
+Number of purchased tickets: 13
+Percentage: 16.05%
+Current income: $124
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 2
+Enter a seat number in that row:
+> 8
+Ticket price: $10
+Number of purchased tickets: 14
+Percentage: 17.28%
+Current income: $134
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 2
+Enter a seat number in that row:
+> 9
+Ticket price: $10
+Number of purchased tickets: 15
+Percentage: 18.52%
+Current income: $144
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 3
+Enter a seat number in that row:
+> 1
+Ticket price: $10
+Number of purchased tickets: 16
+Percentage: 19.75%
+Current income: $154
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 3
+Enter a seat number in that row:
+> 2
+Ticket price: $10
+Number of purchased tickets: 17
+Percentage: 20.99%
+Current income: $164
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 3
+Enter a seat number in that row:
+> 3
+Ticket price: $10
+Number of purchased tickets: 18
+Percentage: 22.22%
+Current income: $174
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 3
+Enter a seat number in that row:
+> 4
+Ticket price: $10
+Number of purchased tickets: 19
+Percentage: 23.46%
+Current income: $184
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 3
+Enter a seat number in that row:
+> 5
+Ticket price: $10
+Number of purchased tickets: 20
+Percentage: 24.69%
+Current income: $194
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 3
+Enter a seat number in that row:
+> 6
+Ticket price: $10
+Number of purchased tickets: 21
+Percentage: 25.93%
+Current income: $204
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 3
+Enter a seat number in that row:
+> 7
+Ticket price: $10
+Number of purchased tickets: 22
+Percentage: 27.16%
+Current income: $214
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 3
+Enter a seat number in that row:
+> 8
+Ticket price: $10
+Number of purchased tickets: 23
+Percentage: 28.40%
+Current income: $224
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 3
+Enter a seat number in that row:
+> 9
+Ticket price: $10
+Number of purchased tickets: 24
+Percentage: 29.63%
+Current income: $234
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 4
+Enter a seat number in that row:
+> 1
+Ticket price: $10
+Number of purchased tickets: 25
+Percentage: 30.86%
+Current income: $244
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 4
+Enter a seat number in that row:
+> 2
+Ticket price: $10
+Number of purchased tickets: 26
+Percentage: 32.10%
+Current income: $254
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 4
+Enter a seat number in that row:
+> 3
+Ticket price: $10
+Number of purchased tickets: 27
+Percentage: 33.33%
+Current income: $264
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 4
+Enter a seat number in that row:
+> 4
+Ticket price: $10
+Number of purchased tickets: 28
+Percentage: 34.57%
+Current income: $274
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 4
+Enter a seat number in that row:
+> 5
+Ticket price: $10
+Number of purchased tickets: 29
+Percentage: 35.80%
+Current income: $284
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 4
+Enter a seat number in that row:
+> 6
+Ticket price: $10
+Number of purchased tickets: 30
+Percentage: 37.04%
+Current income: $294
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 4
+Enter a seat number in that row:
+> 7
+Ticket price: $10
+Number of purchased tickets: 31
+Percentage: 38.27%
+Current income: $304
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 4
+Enter a seat number in that row:
+> 8
+Ticket price: $10
+Number of purchased tickets: 32
+Percentage: 39.51%
+Current income: $314
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 4
+Enter a seat number in that row:
+> 9
+Ticket price: $10
+Number of purchased tickets: 33
+Percentage: 40.74%
+Current income: $324
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 5
+Enter a seat number in that row:
+> 1
+Ticket price: $8
+Number of purchased tickets: 34
+Percentage: 41.98%
+Current income: $332
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 5
+Enter a seat number in that row:
+> 2
+Ticket price: $8
+Number of purchased tickets: 35
+Percentage: 43.21%
+Current income: $340
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 5
+Enter a seat number in that row:
+> 3
+Ticket price: $8
+Number of purchased tickets: 36
+Percentage: 44.44%
+Current income: $348
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 5
+Enter a seat number in that row:
+> 4
+Ticket price: $8
+Number of purchased tickets: 37
+Percentage: 45.68%
+Current income: $356
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 5
+Enter a seat number in that row:
+> 5
+Ticket price: $8
+Number of purchased tickets: 38
+Percentage: 46.91%
+Current income: $364
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 5
+Enter a seat number in that row:
+> 6
+Ticket price: $8
+Number of purchased tickets: 39
+Percentage: 48.15%
+Current income: $372
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 5
+Enter a seat number in that row:
+> 7
+Ticket price: $8
+Number of purchased tickets: 40
+Percentage: 49.38%
+Current income: $380
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 5
+Enter a seat number in that row:
+> 8
+Ticket price: $8
+Number of purchased tickets: 41
+Percentage: 50.62%
+Current income: $388
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 5
+Enter a seat number in that row:
+> 9
+Ticket price: $8
+Number of purchased tickets: 42
+Percentage: 51.85%
+Current income: $396
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 6
+Enter a seat number in that row:
+> 1
+Ticket price: $8
+Number of purchased tickets: 43
+Percentage: 53.09%
+Current income: $404
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 6
+Enter a seat number in that row:
+> 2
+Ticket price: $8
+Number of purchased tickets: 44
+Percentage: 54.32%
+Current income: $412
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 6
+Enter a seat number in that row:
+> 3
+Ticket price: $8
+Number of purchased tickets: 45
+Percentage: 55.56%
+Current income: $420
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 6
+Enter a seat number in that row:
+> 4
+Ticket price: $8
+Number of purchased tickets: 46
+Percentage: 56.79%
+Current income: $428
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 6
+Enter a seat number in that row:
+> 5
+Ticket price: $8
+Number of purchased tickets: 47
+Percentage: 58.02%
+Current income: $436
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 6
+Enter a seat number in that row:
+> 6
+Ticket price: $8
+Number of purchased tickets: 48
+Percentage: 59.26%
+Current income: $444
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 6
+Enter a seat number in that row:
+> 7
+Ticket price: $8
+Number of purchased tickets: 49
+Percentage: 60.49%
+Current income: $452
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 6
+Enter a seat number in that row:
+> 8
+Ticket price: $8
+Number of purchased tickets: 50
+Percentage: 61.73%
+Current income: $460
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 6
+Enter a seat number in that row:
+> 9
+Ticket price: $8
+Number of purchased tickets: 51
+Percentage: 62.96%
+Current income: $468
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 7
+Enter a seat number in that row:
+> 1
+Ticket price: $8
+Number of purchased tickets: 52
+Percentage: 64.20%
+Current income: $476
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 7
+Enter a seat number in that row:
+> 2
+Ticket price: $8
+Number of purchased tickets: 53
+Percentage: 65.43%
+Current income: $484
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 7
+Enter a seat number in that row:
+> 3
+Ticket price: $8
+Number of purchased tickets: 54
+Percentage: 66.67%
+Current income: $492
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 7
+Enter a seat number in that row:
+> 4
+Ticket price: $8
+Number of purchased tickets: 55
+Percentage: 67.90%
+Current income: $500
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 7
+Enter a seat number in that row:
+> 5
+Ticket price: $8
+Number of purchased tickets: 56
+Percentage: 69.14%
+Current income: $508
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 7
+Enter a seat number in that row:
+> 6
+Ticket price: $8
+Number of purchased tickets: 57
+Percentage: 70.37%
+Current income: $516
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 7
+Enter a seat number in that row:
+> 7
+Ticket price: $8
+Number of purchased tickets: 58
+Percentage: 71.60%
+Current income: $524
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 7
+Enter a seat number in that row:
+> 8
+Ticket price: $8
+Number of purchased tickets: 59
+Percentage: 72.84%
+Current income: $532
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 7
+Enter a seat number in that row:
+> 9
+Ticket price: $8
+Number of purchased tickets: 60
+Percentage: 74.07%
+Current income: $540
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 8
+Enter a seat number in that row:
+> 1
+Ticket price: $8
+Number of purchased tickets: 61
+Percentage: 75.31%
+Current income: $548
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 8
+Enter a seat number in that row:
+> 2
+Ticket price: $8
+Number of purchased tickets: 62
+Percentage: 76.54%
+Current income: $556
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 8
+Enter a seat number in that row:
+> 3
+Ticket price: $8
+Number of purchased tickets: 63
+Percentage: 77.78%
+Current income: $564
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 8
+Enter a seat number in that row:
+> 4
+Ticket price: $8
+Number of purchased tickets: 64
+Percentage: 79.01%
+Current income: $572
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 8
+Enter a seat number in that row:
+> 5
+Ticket price: $8
+Number of purchased tickets: 65
+Percentage: 80.25%
+Current income: $580
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 8
+Enter a seat number in that row:
+> 6
+Ticket price: $8
+Number of purchased tickets: 66
+Percentage: 81.48%
+Current income: $588
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 8
+Enter a seat number in that row:
+> 7
+Ticket price: $8
+Number of purchased tickets: 67
+Percentage: 82.72%
+Current income: $596
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 8
+Enter a seat number in that row:
+> 8
+Ticket price: $8
+Number of purchased tickets: 68
+Percentage: 83.95%
+Current income: $604
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 8
+Enter a seat number in that row:
+> 9
+Ticket price: $8
+Number of purchased tickets: 69
+Percentage: 85.19%
+Current income: $612
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 3
+Number of purchased tickets: 69
+Percentage: 85.19%
+Current income: $612
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 1
+Enter a seat number in that row:
+> 1
+Ticket price: $10
+Number of purchased tickets: 70
+Percentage: 86.42%
+Current income: $622
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 1
+Enter a seat number in that row:
+> 2
+Ticket price: $10
+Number of purchased tickets: 71
+Percentage: 87.65%
+Current income: $632
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 1
+Enter a seat number in that row:
+> 3
+Ticket price: $10
+Number of purchased tickets: 72
+Percentage: 88.89%
+Current income: $642
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 1
+Enter a seat number in that row:
+> 4
+Ticket price: $10
+Number of purchased tickets: 73
+Percentage: 90.12%
+Current income: $652
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 1
+Enter a seat number in that row:
+> 5
+Ticket price: $10
+Number of purchased tickets: 74
+Percentage: 91.36%
+Current income: $662
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 1
+Enter a seat number in that row:
+> 6
+Ticket price: $10
+Number of purchased tickets: 75
+Percentage: 92.59%
+Current income: $672
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 1
+Cinema:
+  1 2 3 4 5 6 7 8 9 
+1 B B B B B B B B B 
+2 B B B B B B B B B 
+3 B B B B B B B B B 
+4 B B B B B B B B B 
+5 B B B B B B B B B 
+6 B B B B B B B B B 
+7 B B B B B B B B B 
+8 B B B B B B B B B 
+9 B B B S S S S S S 
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 9
+Enter a seat number in that row:
+> 4
+Ticket price: $8
+Number of purchased tickets: 76
+Percentage: 93.83%
+Current income: $680
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 9
+Enter a seat number in that row:
+> 5
+Ticket price: $8
+Number of purchased tickets: 77
+Percentage: 95.06%
+Current income: $688
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 9
+Enter a seat number in that row:
+> 6
+Ticket price: $8
+Number of purchased tickets: 78
+Percentage: 96.30%
+Current income: $696
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 9
+Enter a seat number in that row:
+> 7
+Ticket price: $8
+Number of purchased tickets: 79
+Percentage: 97.53%
+Current income: $704
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 9
+Enter a seat number in that row:
+> 8
+Ticket price: $8
+Number of purchased tickets: 80
+Percentage: 98.77%
+Current income: $712
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 2
+Enter a row number:
+> 9
+Enter a seat number in that row:
+> 9
+Ticket price: $8
+Number of purchased tickets: 81
+Percentage: 100.00%
+Current income: $720
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+> 3
+Number of purchased tickets: 81
+Percentage: 100.00%
+Current income: $720
+Total income: $720
+1. Show the seats
+2. Buy a ticket
+3. Statistics
+0. Exit
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
